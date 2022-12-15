@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#fundo{
+    background-image: url("/IMAGEM/verde.jpg");
+    background-position: 50% 70%;
+    color: white;
+}
+input{
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid rgb(22, 204, 31);
+    font-size: 16pt;
+    padding: 10px 20px;
+}
+div#corpo-form{
+    /*background-color:aqua ;*/
+    width: 420px;
+    margin: 150px auto 0px auto;
+}
+div#corpo-form h1{
+    text-align: center;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline ;
+}
