@@ -22,7 +22,7 @@
         </div>
     <div class="partidas">
             <?php
-                $sql = "SELECT * FROM dados_jogos where tipo like 'GRUPO%'";
+                $sql = "SELECT * FROM dados_jogos where tipo like 'OITAVAS%'";
                 $query = $mysqli->query($sql);
                 $i = 1;
                 $j = 2;

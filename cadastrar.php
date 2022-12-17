@@ -17,7 +17,7 @@
     <h1>Login</h1>
     <form method="POST">
         <input type="text" name="nome" placeholder="Nome Completo" maxlength="100">
-        <input type="text" name="telefone" placeholder="Telefone" maxlength="15">
+        <input type="text" name="telefone" placeholder="Telefone" maxlength="20">
         <input type="email" name="email" placeholder="E-mail" maxlength="40">
         <input type="password" name="senha" placeholder="Senha" maxlength="15">
         <input type="password" name="confSenha" placeholder="Confirmar Senha">

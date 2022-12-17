@@ -10,7 +10,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/jogos.css">
-    <title>Hello, world!</title>
+    <title>Bolão 2022!</title>
 </head>
 
 <body>
@@ -22,7 +22,7 @@
         </div>
     <div class="partidas">
             <?php
-                $sql = "SELECT * FROM dados_jogos where tipo like 'GRUPO%'";
+                $sql = "SELECT * FROM dados_jogos where tipo like 'QUARTAS%'";
                 $query = $mysqli->query($sql);
                 $i = 1;
                 $j = 2;
@@ -53,9 +53,6 @@
                 <div class="data">
                         <h4><?php echo $dados['data']; ?> </h4> 
                         <h4><?php echo $dados['horario']; ?> </h4>
-                </div>
-                <div class="button-aposta" id="aposta">
-                    <button type="submit" class="btn btn">Apostar</button>
                 </div>
             </div>
             <?php $i++;$j++;} ?>

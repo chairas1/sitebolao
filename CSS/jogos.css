@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Jomhuria&family=PT+Sans+Narrow&display=swap');
+
+body{
+    background-image: url("../IMAGEM/verde.jpg");
+    color: #fff;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.buttons{
+    margin-top:50px;
+    margin-left: 100px;
+}
+
+.buttons button{
+    background-color: rgb(251, 250, 250);
+    margin-left: 20px;
+    border-radius: 48px;
+    font-family: 'Jomhuria', cursive;
+    font-size: 30px;
+
+/* identical to box height */
+
+    letter-spacing: 0.01em;
+}
+
+.partidas{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+    color: green;
+}
+.jogos{
+    width: 380px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.493);
+}
+
+.rodada{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info h4{
+    font-size: 1em;
+}
+
+.data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.data h4{
+    font-size: 1.1em;
+}
+
+.timeA{
+    display: flex;
+    flex-direction: row;
+}
+
+.timeB{
+    display: flex;
+    flex-direction: row;
+}
+
+.timeA img{
+    width: 60px;
+}
+
+.timeB img{
+    width: 60px;
+}
+
+.timeA input {
+    margin: 30px 20px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.timeB input{
+    margin: 30px 20px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+#final{
+    display: grid;
+    grid-template-columns: auto;
+    margin: auto;
+}
+
+.button-aposta{
+    gap: 15px;
+    width: 100px;
+    border-radius: 25px;
+    height: 50px;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: rgb(255, 255, 255);
+}
